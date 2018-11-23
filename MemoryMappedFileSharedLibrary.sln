@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryMappedFileDemoReader", "MemoryMappedFileDemoReader\MemoryMappedFileDemoReader.csproj", "{89B9BFAC-A281-4D09-89CB-426DE38590B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryMappedFileDemoWriter", "MemoryMappedFileDemoWriter\MemoryMappedFileDemoWriter.csproj", "{066F7883-1033-47A0-BD9D-DE3A70A9D330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryMappedFileSharedLibrary", "MemoryMappedFileSharedLibrary\MemoryMappedFileSharedLibrary.csproj", "{959EE8B6-62DD-4A1C-9E97-3CAF355E553B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89B9BFAC-A281-4D09-89CB-426DE38590B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B9BFAC-A281-4D09-89CB-426DE38590B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B9BFAC-A281-4D09-89CB-426DE38590B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B9BFAC-A281-4D09-89CB-426DE38590B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{066F7883-1033-47A0-BD9D-DE3A70A9D330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066F7883-1033-47A0-BD9D-DE3A70A9D330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066F7883-1033-47A0-BD9D-DE3A70A9D330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066F7883-1033-47A0-BD9D-DE3A70A9D330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959EE8B6-62DD-4A1C-9E97-3CAF355E553B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959EE8B6-62DD-4A1C-9E97-3CAF355E553B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959EE8B6-62DD-4A1C-9E97-3CAF355E553B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959EE8B6-62DD-4A1C-9E97-3CAF355E553B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7722E583-7C66-4FBE-9904-FB1DF577B032}
+	EndGlobalSection
+EndGlobal
